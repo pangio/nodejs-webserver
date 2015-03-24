@@ -1,0 +1,3 @@
+curl
+
+curl -X POST http://localhost:8000/people -H "content-type: application/json" -d '[{"pid" : "1", "name": "John", "gender": "male"}]'
